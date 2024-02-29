@@ -1,0 +1,152 @@
+body{
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar{
+  width: 100%;
+  display: flex;
+  padding: 0px 20px;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  font-size: 14px;
+  height: 51px;
+  background: linear-gradient(90deg, #16183f 0%, #0d103c 50%, #070b34 100%);
+  color: #fff;
+}
+
+.navbar-element{
+  padding: 10px 25px;
+  font-weight: lighter;
+}
+
+.navbar-element:hover{
+  background-color: #3a3c50;
+  cursor: pointer;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contact-list{
+  width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 15px 0;
+  gap: 30px;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  height: 250px;
+  border-radius: 10px;
+  box-shadow: 0 0 11.5px 1px #c9c9c9;
+}
+
+.card-img{
+  width: 240px;
+  height: 100%;
+  background: linear-gradient(0deg, #474bff 0%, #bc48ff 100%);
+  border-radius: 10px 10px 0 0;
+}
+
+.card-body{
+  font-size: 12px;
+  padding: 0px 10px;
+}
+
+.card-body-name{
+  font-weight: bold;
+}
+
+.card:hover{
+  transform: scale(102%);
+  cursor: pointer;
+
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(0deg, #474bff 0%, #bc48ff 100%);
+  box-shadow: 0 0 11.5px 1px #c0bcbc;
+  width: 500px;
+  padding: 30px;
+  margin: 25px auto;
+  border-radius: 8px;
+}
+
+.form > input{
+  font-size: 18px;
+  border: none;
+  color: #fff;
+  background-color: transparent;
+  border-bottom: 1px #ffffff solid;
+  backdrop-filter: blur(5px);
+  border-radius: 3px;
+  padding: 15px;
+}
+
+.form > input::placeholder{
+  color: #fff;
+}
+
+.form > input:focus{
+  outline: none;
+  border-bottom: 2px #fff solid;
+}
+
+.search-container{
+  margin: 15px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-container > input{
+  font-size: 20px;
+  font-weight: lighter;
+  border-radius: 5px;
+  color: #737373;
+  padding: 10px 10px;
+  width: 840px;
+  box-shadow: 0 0 11.5px 1px #d7d7d7;
+  border: 1px solid #c0bcbc;
+}
+
+.search-container > input:focus{
+  outline: none;
+  border: 1px solid #c0bcbc;
+}
+
+.button{
+  padding: 10px 30px;
+  border: none;
+  background-color: rgb(25, 178, 25);
+  border-radius: 2px;
+  color: #fff;
+  font-weight: 300;
+}
+
+.button:hover{
+  background-color: rgb(30, 158, 30);
+  cursor: pointer;
+}
